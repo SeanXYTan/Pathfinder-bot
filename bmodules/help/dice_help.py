@@ -1,0 +1,1 @@
+# show usage and function of dice command
