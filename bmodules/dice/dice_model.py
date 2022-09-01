@@ -29,3 +29,12 @@ class Dice:
         for rolls in range(self.num):
             dice_rolled.append(randint(1, self.face))
         return dice_rolled
+
+
+class Modifier:
+    """
+
+    """
+    def __init__(self, chara, mod):
+        self.chara = chara
+        self.mod = int(mod)
